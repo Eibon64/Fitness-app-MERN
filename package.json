@@ -5,7 +5,7 @@
   "scripts": {
     "client": "cd client && npm start",
     "server": "cd server && npm start",
-    "start": "npm run start-client & npm run start-server",
+    "start": "npm run client & npm run server",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "cd client && npm run build"
